@@ -50,6 +50,18 @@ Flask + PyTorch + SQLite FTS5 | Runs on desktop GPU, Jetson, or DGX
 
 ---
 
+## CyberPower PDU Bridge
+
+**Self-hosted monitoring and automation for CyberPower power distribution units.**
+
+Real-time web dashboard for PDUs and automatic transfer switches. Polls devices over SNMP and serial, publishes metrics to MQTT, stores 60 days of 1Hz time-series data, and integrates with Home Assistant auto-discovery. Centralized control of multiple PDUs with an in-app automation rules engine.
+
+Python + Docker + MQTT + InfluxDB | [github.com/mvalancy/CyberPower-PDU](https://github.com/mvalancy/CyberPower-PDU)
+
+[![PDU Dashboard](https://github.com/mvalancy/CyberPower-PDU/raw/main/docs/screenshots/dashboard.png)](https://github.com/mvalancy/CyberPower-PDU)
+
+---
+
 ## Graphlings
 
 **Autonomous digital creatures that think, remember, and evolve across connected worlds.**

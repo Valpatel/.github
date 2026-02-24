@@ -15,7 +15,7 @@ Build fast, explore broadly, then cut ruthlessly to what works.
 Amy is the AI commander. She watches through cameras, thinks with a continuous inner monologue, and independently tasks assets — all running locally on NVIDIA edge hardware. Three operating modes:
 
 - **Idle security mode** — Always-on neighborhood monitoring. Amy tracks every person and vehicle, identifies patterns, and builds a continuous picture of what's normal and what isn't. The original concept.
-- **Live combat mode** — Kids vs. robots. Amy connects to robot dogs, drones, and Nerf turrets deployed in the yard. Same detection pipeline, same AI decision loop, but now she's hunting players. Kids gear up and fight back.
+- **Live combat mode** — Kids vs. robots. Amy connects to robot dogs, humanoid robots (e.g. Unitree), drones, and Nerf turrets deployed in the yard. Same detection pipeline, same AI decision loop, but now she's hunting players. Kids gear up and fight back.
 - **Simulation mode** — Full stack exercised without real hardware. Virtual assets on real satellite maps with wave-based combat, projectile physics, and kill streaks. Same ROS 2 interfaces, synthetic imagery from Isaac Lab. The code that runs in the game is the same code that controls real robots outside.
 
 YOLOv8 at 30fps | ROS 2 + Isaac Lab | FastAPI + Three.js

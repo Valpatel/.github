@@ -12,11 +12,11 @@ Build fast, explore broadly, then cut ruthlessly to what works.
 
 **AI-powered neighborhood security that doubles as an outdoor robot game for kids.**
 
-At its core, Tritium is a security system. In **idle mode**, Amy — the AI commander — watches neighborhood cameras, tracks every person and vehicle, identifies patterns, and builds a continuous picture of what's normal and what isn't. That's the original concept: always-on autonomous neighborhood monitoring running locally on NVIDIA edge hardware.
+Amy is the AI commander. She watches through cameras, thinks with a continuous inner monologue, and independently tasks assets — all running locally on NVIDIA edge hardware. Three operating modes:
 
-When the kids want to play, flip it to **live mode**. Amy connects to robot dogs, drones, and Nerf turrets deployed in the yard. Same detection pipeline, same AI inner monologue, but now she's tasking assets to find and engage players. Kids gear up and fight back.
-
-**Simulation mode** exercises the full stack without real hardware — virtual assets on real satellite maps with wave-based combat, projectile physics, and kill streaks. Same ROS 2 interfaces, synthetic imagery from Isaac Lab. The code that runs in the game is the same code that controls real robots outside.
+- **Idle security mode** — Always-on neighborhood monitoring. Amy tracks every person and vehicle, identifies patterns, and builds a continuous picture of what's normal and what isn't. The original concept.
+- **Live combat mode** — Kids vs. robots. Amy connects to robot dogs, drones, and Nerf turrets deployed in the yard. Same detection pipeline, same AI decision loop, but now she's hunting players. Kids gear up and fight back.
+- **Simulation mode** — Full stack exercised without real hardware. Virtual assets on real satellite maps with wave-based combat, projectile physics, and kill streaks. Same ROS 2 interfaces, synthetic imagery from Isaac Lab. The code that runs in the game is the same code that controls real robots outside.
 
 YOLOv8 at 30fps | ROS 2 + Isaac Lab | FastAPI + Three.js
 

@@ -10,11 +10,13 @@ Build fast, explore broadly, then cut ruthlessly to what works.
 
 ## Tritium-SC
 
-**Neighborhood Nerf warfare — kids vs. real AI-controlled robots.**
+**AI-powered neighborhood security that doubles as an outdoor robot game for kids.**
 
-An AI commander named Amy connects to real cameras, robot dogs, drones, and Nerf turrets deployed in your neighborhood. She watches through live feeds, thinks with a continuous inner monologue, and independently tasks her assets to find and engage players. Kids gear up and fight back. Everything runs locally on NVIDIA edge hardware.
+At its core, Tritium is a security system. In **idle mode**, Amy — the AI commander — watches neighborhood cameras, tracks every person and vehicle, identifies patterns, and builds a continuous picture of what's normal and what isn't. That's the original concept: always-on autonomous neighborhood monitoring running locally on NVIDIA edge hardware.
 
-The built-in **simulation mode** exercises the full software stack without real hardware — virtual assets on real satellite maps with wave-based combat, projectile physics, and kill streaks. Same detection pipeline, same AI decision loop, same ROS 2 interfaces. Sim assets receive synthetic imagery from sources like Isaac Lab, so the code that runs in the game is the same code that controls real robots in the yard.
+When the kids want to play, flip it to **live mode**. Amy connects to robot dogs, drones, and Nerf turrets deployed in the yard. Same detection pipeline, same AI inner monologue, but now she's tasking assets to find and engage players. Kids gear up and fight back.
+
+**Simulation mode** exercises the full stack without real hardware — virtual assets on real satellite maps with wave-based combat, projectile physics, and kill streaks. Same ROS 2 interfaces, synthetic imagery from Isaac Lab. The code that runs in the game is the same code that controls real robots outside.
 
 YOLOv8 at 30fps | ROS 2 + Isaac Lab | FastAPI + Three.js
 

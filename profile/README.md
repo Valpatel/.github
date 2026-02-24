@@ -10,11 +10,13 @@ Build fast, explore broadly, then cut ruthlessly to what works.
 
 ## Tritium-SC
 
-**Outdoor robot game for kids with an AI commander that controls autonomous assets.**
+**Neighborhood Nerf warfare — kids vs. real AI-controlled robots.**
 
-An AI named Amy watches through cameras, thinks with an inner monologue, and commands robot dogs, drones, and Nerf turrets — all without human input. Real satellite maps turn your neighborhood into a tactical battlefield with wave-based combat, projectile physics, and kill streaks. Everything runs locally on NVIDIA edge hardware.
+An AI commander named Amy connects to real cameras, robot dogs, drones, and Nerf turrets deployed in your neighborhood. She watches through live feeds, thinks with a continuous inner monologue, and independently tasks her assets to find and engage players. Kids gear up and fight back. Everything runs locally on NVIDIA edge hardware.
 
-YOLOv8 detection at 30fps | Multi-sensor fusion | FastAPI + Three.js
+The built-in **simulation mode** exercises the full software stack without real hardware — virtual assets on real satellite maps with wave-based combat, projectile physics, and kill streaks. Same detection pipeline, same AI decision loop, same ROS 2 interfaces. Sim assets receive synthetic imagery from sources like Isaac Lab, so the code that runs in the game is the same code that controls real robots in the yard.
+
+YOLOv8 at 30fps | ROS 2 + Isaac Lab | FastAPI + Three.js
 
 [![Command Center](https://raw.githubusercontent.com/Valpatel/tritium-sc/main/docs/screenshots/command-center.png)](https://github.com/Valpatel/tritium-sc)
 

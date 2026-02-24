@@ -68,7 +68,7 @@ Python + Docker + MQTT + InfluxDB | [github.com/mvalancy/CyberPower-PDU](https:/
 
 ---
 
-## Graphlings
+## <img src="https://raw.githubusercontent.com/mvalancy/mvalancy/main/graphlings-logo.png" width="32" alt=""> Graphlings
 
 **Autonomous digital creatures that think, remember, and evolve across connected worlds.**
 

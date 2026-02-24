@@ -35,9 +35,11 @@ YOLOv8 at 30fps | ROS 2 + Isaac Lab | FastAPI + Three.js
 
 ## Sound Box
 
-**AI audio generation server — music, sound effects, and voice from text prompts.**
+**Synthetic audio generation for AI agents. Local GenAI SoundCloud for humans.**
 
-Multiple generation engines (MusicGen, AudioGen, MAGNeT, Piper TTS) running on local GPU. Community radio stations, a searchable library, 10 real-time visualizers, and an MCP tool server so AI agents can generate and review game audio assets. All output is CC0 public domain.
+A local, offline box that provides synthetic music, sound effects, and voice to any agent or app on your network. AI agents discover it automatically via MCP, generate and review assets, and pull audio programmatically — no human in the loop required. Multiple engines (MusicGen, AudioGen, MAGNeT, Piper TTS) running on local GPU. All output is CC0 public domain.
+
+For humans, it's a full listening app — community radio stations, a searchable library, 10 real-time visualizers, voting, favorites, and fullscreen immersive mode. The UI makes it fun to browse and curate what the AI is producing.
 
 Flask + PyTorch + SQLite FTS5 | Runs on desktop GPU, Jetson, or DGX
 

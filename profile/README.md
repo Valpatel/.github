@@ -20,18 +20,12 @@ Amy is the AI commander. She watches through cameras, thinks with a continuous i
 
 YOLOv8 at 30fps | ROS 2 + Isaac Lab | FastAPI + Three.js
 
-[![Command Center](https://github.com/Valpatel/tritium-sc/raw/main/docs/screenshots/command-center.jpg)](https://github.com/Valpatel/tritium-sc)
+[![Mission Deployment](https://github.com/Valpatel/tritium-sc/raw/main/docs/screenshots/mission-deployment.jpg)](https://github.com/Valpatel/tritium-sc)
 
 <p align="center">
   <a href="https://github.com/Valpatel/tritium-sc">
     <img src="https://github.com/Valpatel/tritium-sc/raw/main/docs/screenshots/game-combat.jpg" width="49%" alt="Wave-based Nerf combat">
   </a>
-  <a href="https://github.com/Valpatel/tritium-sc">
-    <img src="https://github.com/Valpatel/tritium-sc/raw/main/docs/screenshots/mission-deployment.jpg" width="49%" alt="Mission deployment">
-  </a>
-</p>
-
-<p align="center">
   <a href="https://github.com/Valpatel/tritium-sc">
     <img src="https://github.com/Valpatel/tritium-sc/raw/main/docs/screenshots/mission-modal.png" width="49%" alt="Mission initialization">
   </a>

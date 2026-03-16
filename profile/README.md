@@ -24,30 +24,25 @@ Cross-platform (PC, Mac, Mobile) | Coming 2026 | [graphlings.net &rarr;](https:/
 
 ---
 
-## Tritium-SC
+## [Tritium](https://github.com/Valpatel/tritium) — Unified Operating Picture
 
-**AI-powered neighborhood security that doubles as an outdoor robot game for kids.**
+**Neighborhood security is too important to be a SaaS.** Track, identify, and fuse every target — BLE, WiFi, camera, radar, SDR, LoRa mesh, acoustic — into one tactical picture on a real-world map. Runs entirely on your own hardware.
 
-Amy is the AI commander. She watches through cameras, thinks with a continuous inner monologue, and independently tasks assets — all running locally on NVIDIA edge hardware. Three operating modes:
+Every detected entity gets a unique target ID. A BLE scanner sees a phone. A camera sees a person. TPMS picks up tire sensors from a car. The system correlates them into one entity and builds a dossier that grows over time — daily routines, travel routes, known associates.
 
-- **Idle security mode** — Always-on neighborhood monitoring. Amy tracks every person and vehicle, identifies patterns, and builds a continuous picture of what's normal and what isn't. The original concept.
-- **Live combat mode** — Kids vs. robots. Amy connects to robot dogs, humanoid robots (e.g. Unitree), drones, and Nerf turrets deployed in the yard. Same detection pipeline, same AI decision loop, but now she's hunting players. Kids gear up and fight back.
-- **Simulation mode** — Full stack exercised without real hardware. Virtual assets on real satellite maps with wave-based combat, projectile physics, and kill streaks. Same ROS 2 interfaces, synthetic imagery from Isaac Lab. The code that runs in the game is the same code that controls real robots outside.
+- **23+ sensor plugins** — BLE tracking, WiFi fingerprinting, YOLO detection, license plate recognition, acoustic classification, SDR spectrum monitoring, LoRa mesh, ATAK/CoT interoperability
+- **Pluggable AI commander** — monitors the tactical picture, narrates events, dispatches assets. Runs on local LLMs via Ollama
+- **Edge firmware** — Tritium-OS for ESP32-S3 with 66+ HALs (BLE, WiFi, acoustic, LoRa, power management)
+- **Self-improving** — 92% accurate target correlator via reinforcement learning. 933-entry BLE device database. Autonomous development loop with local LLM monitoring
+- **Battle simulation** — same sensor fusion pipeline exercised with wave-based combat, projectile physics, and AI narration
 
-**[Graphlings](https://graphlings.net) integration:** Tritium-SC's plugin system deploys Graphlings from their home universe into battle scenarios as intelligent NPCs. Most enemies, civilians, and ambient units run on traditional game AI — but scattered through the world are Graphlings: autonomous agents that know they're actors in a temporary simulation. They observe, reason, and make decisions that scripted AI can't. When the battle ends, they return home with memories of what happened.
+**[Graphlings](https://graphlings.net) integration:** Tritium's plugin system deploys Graphlings from their home universe into battle scenarios as intelligent NPCs — autonomous agents that observe, reason, and remember. When the battle ends, they return home with new memories.
 
-YOLOv8 at 30fps | ROS 2 + Isaac Lab | FastAPI + Three.js
+Three components: [**tritium-lib**](https://github.com/Valpatel/tritium-lib) (shared models + interfaces) | [**tritium-sc**](https://github.com/Valpatel/tritium-sc) (command center, port 8000) | [**tritium-edge**](https://github.com/Valpatel/tritium-edge) (ESP32 firmware + fleet server, port 8080)
 
-[![Mission Initialization](https://github.com/Valpatel/tritium-sc/raw/main/docs/screenshots/mission-modal.png)](https://github.com/Valpatel/tritium-sc)
+Python 3.12 + FastAPI + vanilla JS | AGPL-3.0
 
-<p align="center">
-  <a href="https://github.com/Valpatel/tritium-sc">
-    <img src="https://github.com/Valpatel/tritium-sc/raw/main/docs/screenshots/game-combat.jpg" width="49%" alt="Wave-based Nerf combat">
-  </a>
-  <a href="https://github.com/Valpatel/tritium-sc">
-    <img src="https://github.com/Valpatel/tritium-sc/raw/main/docs/screenshots/mission-deployment.jpg" width="49%" alt="Mission deployment">
-  </a>
-</p>
+[![Tritium Command Center](https://github.com/Valpatel/tritium/raw/dev/docs/screenshots/command-center.png)](https://github.com/Valpatel/tritium)
 
 ---
 

@@ -6,6 +6,10 @@ We engineer systems for autonomous platforms — robotics simulation, perception
 
 Build fast, explore broadly, then cut ruthlessly to what works.
 
+> **Note —** In light of recent emergent capabilities, our projects have moved to closed source.
+> Public repositories are being retired and development continues privately. Previously published
+> releases remain under the terms they were issued.
+
 ---
 
 ## <img src="https://raw.githubusercontent.com/mvalancy/mvalancy/main/graphlings-logo.png" width="32" alt=""> [Graphlings](https://graphlings.net)
@@ -40,9 +44,9 @@ Every detected entity gets a unique target ID. A BLE scanner sees a phone. A cam
 
 Three components: [**tritium-lib**](https://github.com/Valpatel/tritium-lib) (shared models + interfaces) | [**tritium-sc**](https://github.com/Valpatel/tritium-sc) (command center, port 8000) | [**tritium-edge**](https://github.com/Valpatel/tritium-edge) (ESP32 firmware + fleet server, port 8080)
 
-Python 3.12 + FastAPI + vanilla JS | AGPL-3.0
+Python 3.12 + FastAPI + vanilla JS | Proprietary
 
-[![Tritium Command Center](https://github.com/Valpatel/tritium/raw/dev/docs/screenshots/command-center.png)](https://github.com/Valpatel/tritium)
+[![Tritium Command Center](https://raw.githubusercontent.com/Valpatel/.github/main/assets/tritium-command-center.png)](https://github.com/Valpatel/tritium)
 
 ---
 
@@ -77,7 +81,7 @@ Real-time web dashboard for PDUs and automatic transfer switches. Polls devices 
 
 Python + Docker + MQTT + InfluxDB | [github.com/mvalancy/CyberPower-PDU](https://github.com/mvalancy/CyberPower-PDU)
 
-[![PDU Dashboard](https://github.com/mvalancy/CyberPower-PDU/raw/main/docs/screenshots/dashboard.png)](https://github.com/mvalancy/CyberPower-PDU)
+[![PDU Dashboard](https://raw.githubusercontent.com/Valpatel/.github/main/assets/pdu-dashboard.png)](https://github.com/mvalancy/CyberPower-PDU)
 
 ---
 

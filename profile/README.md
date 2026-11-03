@@ -1,137 +1,60 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Valpatel/.github/main/assets/hero/valpatel-dark.svg">
-  <img src="https://raw.githubusercontent.com/Valpatel/.github/main/assets/hero/valpatel-light.svg" width="100%" alt="Valpatel: gamify the development and management of independent thinking machines">
+  <img src="https://raw.githubusercontent.com/Valpatel/.github/main/assets/hero/valpatel-light.svg" width="100%" alt="Valpatel: engineering the systems behind intelligent machines. An operations overview links Gyropup, cad-agent, Graphlings, Club Fight, val-ark, Tritium, Sound Box and j501-agx-orin, with the latest events from our public repositories.">
 </picture>
 
-# Valpatel Software
-
-**Gamify the development and management of independent thinking machines.**
-
-We engineer systems for autonomous platforms — robotics simulation, perception, edge AI, and the infrastructure that makes it all work. Based in Dublin, California.
-
-Build fast, explore broadly, then cut ruthlessly to what works.
-
-> **Note —** In light of recent emergent capabilities, our projects have moved to closed source.
-> Public repositories are being retired and development continues privately. Previously published
-> releases remain under the terms they were issued.
-
-**Jump to:** [Open projects](#open-projects) · [In development](#in-development) · [Graphlings](#graphlings) · [Tritium](#tritium) · [Sound Box](#sound-box) · [CyberPower PDU Bridge](#cyberpower-pdu-bridge)
-
----
-
-## Open projects
-
-<p>
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Valpatel/.github/main/assets/cards/gyropup-dark.svg"><img src="https://raw.githubusercontent.com/Valpatel/.github/main/assets/cards/gyropup-light.svg" width="49%" alt="Gyropup: a research robot designed to balance on two wheel-legs, with a foam-ball turret"></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Valpatel/.github/main/assets/cards/cad-agent-dark.svg"><img src="https://raw.githubusercontent.com/Valpatel/.github/main/assets/cards/cad-agent-light.svg" width="49%" alt="cad-agent: a workshop where AI agents get better at CAD by learning from everyone else"></picture>
-<br><sub><a href="https://github.com/Valpatel/gyropup">Gyropup</a> · <a href="https://github.com/Valpatel/cad-agent">cad-agent</a></sub>
-</p>
-<p>
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Valpatel/.github/main/assets/cards/app-soundbox-dark.svg"><img src="https://raw.githubusercontent.com/Valpatel/.github/main/assets/cards/app-soundbox-light.svg" width="49%" alt="Sound Box: local AI audio generation (music, effects, voice) for agents and humans"></picture>
-<br><sub><a href="https://github.com/Valpatel/app-soundbox">Sound Box</a></sub>
-</p>
-
-[**Gyropup**](https://github.com/Valpatel/gyropup) — A research robot designed to balance on two wheel-legs, with a foam-ball turret: CAD and simulation in the open, and the closed-loop tooling that designs, simulates and manufactures it. [gyropup.com](https://gyropup.com)
-
-[**cad-agent**](https://github.com/Valpatel/cad-agent) — A one-stop shop for agentic CAD: self-improving AI for designing physical objects, built with the best open-source projects. One line installs it into Claude Code, Codex, Cursor and more.
-
-[**Sound Box**](#sound-box) — Synthetic audio generation for AI agents, and a local GenAI SoundCloud for humans.
-
----
-
-## In development
-
-<p>
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Valpatel/.github/main/assets/cards/graphlings-dark.svg"><img src="https://raw.githubusercontent.com/Valpatel/.github/main/assets/cards/graphlings-light.svg" width="49%" alt="Graphlings: crystal creatures that live, think and remember across connected worlds"></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Valpatel/.github/main/assets/cards/tritium-dark.svg"><img src="https://raw.githubusercontent.com/Valpatel/.github/main/assets/cards/tritium-light.svg" width="49%" alt="Tritium: every sensor fused into one operating picture, on your own hardware"></picture>
-<br><sub><a href="https://graphlings.net">Graphlings</a></sub>
-</p>
-<p>
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Valpatel/.github/main/assets/cards/club-fight-dark.svg"><img src="https://raw.githubusercontent.com/Valpatel/.github/main/assets/cards/club-fight-light.svg" width="49%" alt="Club Fight: an animal fighting game"></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Valpatel/.github/main/assets/cards/cyberpower-pdu-dark.svg"><img src="https://raw.githubusercontent.com/Valpatel/.github/main/assets/cards/cyberpower-pdu-light.svg" width="49%" alt="CyberPower PDU Bridge: self-hosted monitoring and automation for CyberPower power distribution units"></picture>
-</p>
-
-**Club Fight** *(private)* — An animal fighting game.
-
----
-
-## <img src="https://raw.githubusercontent.com/Valpatel/.github/main/assets/graphlings-logo.png" width="32" alt=""> Graphlings
-
-*[Graphlings](https://graphlings.net) — Created by Matthew Valancy, Copyright 2026 Valpatel Software LLC.*
-
-**Persistent crystal creatures that live, think, and remember across connected worlds.**
-
-[Graphlings](https://graphlings.net) are autonomous digital life forms — crystal creatures with personalities, memories, and motivations that develop over time in their own game universe. They aren't scripted NPCs. Each one runs on a local LLM, observes its surroundings, reasons about what to do, and acts independently. They form relationships, remember experiences, breed inherited traits, and communicate with voice.
-
-When a simulation begins in another system (like [Tritium](#tritium)), Graphlings cross over from their home world to play roles — a defender who remembers last week's breach, an attacker with a grudge, a bystander who notices things. When the mission ends, they return home with new memories. Think of it like the TV show *ReBoot*: the simulation is a game that descends into the Graphlings' world. They suit up, play their parts, and go home when the game ends.
-
-The system distributes Graphling cognition across your local compute fleet — desktop mini PCs, RTX workstations, NVIDIA Jetson, Mac Minis, or any Ollama-capable device on your network or Tailscale mesh. Small fast models handle background life; larger models drive critical decisions. Community ownership means your AI runs on your hardware. Self-hostable dedicated servers keep your creatures' data under your control.
-
-Cross-platform (PC, Mac, Mobile) | Coming 2026 | [graphlings.net &rarr;](https://graphlings.net)
-
----
-
-## Tritium
-
-*Unified Operating Picture* *(private)*
-
-**Neighborhood security is too important to be a SaaS.** Track, identify, and fuse every target — BLE, WiFi, camera, radar, SDR, LoRa mesh, acoustic — into one tactical picture on a real-world map. Runs entirely on your own hardware.
-
-Every detected entity gets a unique target ID. A BLE scanner sees a phone. A camera sees a person. TPMS picks up tire sensors from a car. The system correlates them into one entity and builds a dossier that grows over time — daily routines, travel routes, known associates.
-
-- **23+ sensor plugins** — BLE tracking, WiFi fingerprinting, YOLO detection, license plate recognition, acoustic classification, SDR spectrum monitoring, LoRa mesh, ATAK/CoT interoperability
-- **Pluggable AI commander** — monitors the tactical picture, narrates events, dispatches assets. Runs on local LLMs via Ollama
-- **Edge firmware** — Tritium-OS for ESP32-S3 with 66+ HALs (BLE, WiFi, acoustic, LoRa, power management)
-- **Self-improving** — 92% accurate target correlator via reinforcement learning. 933-entry BLE device database. Autonomous development loop with local LLM monitoring
-- **Battle simulation** — same sensor fusion pipeline exercised with wave-based combat, projectile physics, and AI narration
-
-**[Graphlings](https://graphlings.net) integration:** Tritium's plugin system deploys Graphlings from their home universe into battle scenarios as intelligent NPCs — autonomous agents that observe, reason, and remember. When the battle ends, they return home with new memories.
-
-Three components: **tritium-lib** (shared models + interfaces) | **tritium-sc** (command center) | **tritium-edge** (ESP32 firmware + fleet server)
-
-Python 3.12 + FastAPI + vanilla JS | Proprietary
-
-<img src="https://raw.githubusercontent.com/Valpatel/.github/main/assets/tritium-command-center.png" width="100%" alt="Tritium command center">
-
----
-
-## Sound Box
-
-**Synthetic audio generation for AI agents. Local GenAI SoundCloud for humans.**
-
-A local, offline box that provides synthetic music, sound effects, and voice to any agent or app on your network. AI agents discover it automatically via MCP, generate and review assets, and pull audio programmatically — no human in the loop required. Multiple engines (MusicGen, AudioGen, MAGNeT, Piper TTS) running on local GPU. All output is CC0 public domain.
-
-For humans, it's a full listening app — community radio stations, a searchable library, 10 real-time visualizers, voting, favorites, and fullscreen immersive mode. The UI makes it fun to browse and curate what the AI is producing.
-
-Flask + PyTorch + SQLite FTS5 | Runs on desktop GPU, Jetson, or DGX
-
-[![Sound Box Radio](https://raw.githubusercontent.com/Valpatel/.github/main/assets/soundbox-radio.jpg)](https://github.com/Valpatel/app-soundbox)
-
+<!-- stats:start -->
 <p align="center">
-  <a href="https://github.com/Valpatel/app-soundbox">
-    <img src="https://raw.githubusercontent.com/Valpatel/.github/main/assets/soundbox-library.jpg" width="49%" alt="Library search">
-  </a>
-  <a href="https://github.com/Valpatel/app-soundbox">
-    <img src="https://raw.githubusercontent.com/Valpatel/.github/main/assets/soundbox-visualizer.jpg" width="49%" alt="Visualizer">
-  </a>
+<img src="https://img.shields.io/badge/open%20repos-3-00f0ff?style=for-the-badge&amp;labelColor=05070a" alt="open repos: 3">
+<img src="https://img.shields.io/badge/releases%20%C2%B7%2030%20days-17-00f0ff?style=for-the-badge&amp;labelColor=05070a" alt="releases · 30 days: 17">
+<img src="https://img.shields.io/badge/last%20release-cad--agent%20v0.18.0%20%C2%B7%20Nov%202-00f0ff?style=for-the-badge&amp;labelColor=05070a" alt="last release: cad-agent v0.18.0 · Nov 2">
+<img src="https://img.shields.io/badge/last%20commit-Nov%202%2020%3A09%20PT-00f0ff?style=for-the-badge&amp;labelColor=05070a" alt="last commit: Nov 2 20:09 PT">
+</p>
+<!-- stats:end -->
+
+<!-- ticker:start -->
+<p><sub><b>▸ Now building</b> · <a href="https://github.com/Valpatel/cad-agent">cad-agent</a>: v0.18.0 CHANGELOG: review fixes (M3 clamp torque drop… (Nov 2) · <a href="https://github.com/Valpatel/gyropup">gyropup</a> (Nov 2) · <a href="https://github.com/Valpatel/app-soundbox">app-soundbox</a> (Oct 13)</sub></p>
+<!-- ticker:end -->
+
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://cad-agent.valpatel.com"><img src="https://raw.githubusercontent.com/Valpatel/.github/main/assets/spot/cad-agent.svg" width="100%" alt="cad-agent: your one stop shop for agentic CAD. Install."></a>
+<br><a href="https://github.com/Valpatel/cad-agent"><img src="https://img.shields.io/github/v/release/Valpatel/cad-agent?style=flat-square&amp;label=release&amp;sort=date" alt="latest release"> <img src="https://img.shields.io/github/stars/Valpatel/cad-agent?style=flat-square&amp;label=%E2%98%85" alt="stars"></a>
+<br><sub>Self-improving AI for designing physical objects. One line installs it into Claude Code, Codex, Cursor and more.</sub>
+</td>
+<td width="50%" valign="top">
+<a href="https://gyropup.com"><img src="https://raw.githubusercontent.com/Valpatel/.github/main/assets/spot/gyropup.svg" width="100%" alt="Gyropup: a research robot designed to balance on two wheel-legs, with a foam-ball turret. Visit gyropup.com."></a>
+<br><a href="https://github.com/Valpatel/gyropup"><img src="https://img.shields.io/github/last-commit/Valpatel/gyropup?style=flat-square" alt="last commit"> <img src="https://img.shields.io/github/stars/Valpatel/gyropup?style=flat-square&amp;label=%E2%98%85" alt="stars"></a>
+<br><sub>A wheel-legged robot with its CAD and simulation in the open, and the tools that design, simulate and build it.</sub>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://graphlings.net"><img src="https://raw.githubusercontent.com/Valpatel/.github/main/assets/spot/graphlings.svg" width="100%" alt="Graphlings: crystal creatures that live, think and remember across connected worlds. Visit graphlings.net."></a>
+<br><sub>Autonomous creatures that live, think and remember. Meet them at <a href="https://graphlings.net">graphlings.net</a>.</sub>
+</td>
+<td width="50%" valign="top">
+<a href="https://fight.graphlings.net/"><img src="https://raw.githubusercontent.com/Valpatel/.github/main/assets/spot/club-fight.svg" width="100%" alt="Club Fight: who would win? Pick two animals and watch the fight. Play at fight.graphlings.net."></a>
+<br><sub>Who would win? Land, sea and air. Free in the browser at <a href="https://fight.graphlings.net/">fight.graphlings.net</a>, no sign-up.</sub>
+</td>
+</tr>
+</table>
+
+<p>
+<a href="https://github.com/Valpatel/app-soundbox"><img src="https://raw.githubusercontent.com/Valpatel/.github/main/assets/cards/app-soundbox.svg" width="32%" alt="Sound Box: local AI music, sound effects and voice."></a>
+<a href="https://github.com/Valpatel/app-soundbox"><img src="https://raw.githubusercontent.com/Valpatel/.github/main/assets/thumbs/soundbox.jpg" width="32%" alt="Sound Box radio: station presets."></a>
+<a href="https://fight.graphlings.net/"><img src="https://raw.githubusercontent.com/Valpatel/.github/main/assets/thumbs/club-fight.jpg" width="32%" alt="Club Fight gameplay: zebras against hippos on a floating platform."></a>
+<img src="https://raw.githubusercontent.com/Valpatel/.github/main/assets/cards/tritium.svg" width="32%" alt="Tritium: every sensor fused into one operating picture, on your own hardware.">
+<img src="https://raw.githubusercontent.com/Valpatel/.github/main/assets/thumbs/tritium.jpg" width="32%" alt="Tritium's map: tracked targets over city blocks.">
+<img src="https://raw.githubusercontent.com/Valpatel/.github/main/assets/cards/cyberpower-pdu.svg" width="32%" alt="CyberPower-PDU: self-hosted monitoring for CyberPower PDUs.">
+<a href="https://github.com/mvalancy/val-ark"><img src="https://raw.githubusercontent.com/Valpatel/.github/main/assets/cards/val-ark.svg" width="32%" alt="val-ark: open-source tools, AI models and Wikipedia, offline."></a>
+<a href="https://github.com/mvalancy/j501-agx-orin"><img src="https://raw.githubusercontent.com/Valpatel/.github/main/assets/cards/j501-agx-orin.svg" width="32%" alt="j501-agx-orin: printable enclosure for the J501 carrier and Jetson AGX Orin."></a>
+<img src="https://raw.githubusercontent.com/Valpatel/.github/main/assets/thumbs/cyberpower-pdu.jpg" width="32%" alt="CyberPower-PDU dashboard: an automatic transfer switch with two inputs.">
 </p>
 
----
+<sub>Some of our work is closed source: Graphlings, Club Fight, Tritium and CyberPower-PDU are shown here without code links. val-ark and j501-agx-orin live on our founder Matthew Valancy's account.</sub>
 
-## CyberPower PDU Bridge
+<p align="center"><a href="https://valpatel.com">valpatel.com</a> · Dublin, California</p>
 
-*(private)*
-
-**Self-hosted monitoring and automation for CyberPower power distribution units.**
-
-Real-time web dashboard for PDUs and automatic transfer switches. Polls devices over SNMP and serial, publishes metrics to MQTT, stores 60 days of 1Hz time-series data, and integrates with Home Assistant auto-discovery. Centralized control of multiple PDUs with an in-app automation rules engine.
-
-Python + Docker + MQTT + InfluxDB
-
-<img src="https://raw.githubusercontent.com/Valpatel/.github/main/assets/pdu-dashboard.png" width="100%" alt="PDU dashboard">
-
----
-
-<p align="center">
-  <a href="https://valpatel.com">valpatel.com</a>
-</p>
+<sub>Banners are animated SVGs drawn by <a href="https://github.com/mvalancy/mvalancy/tree/main/tools/hero">tools/hero</a> from each project's own content. The stats, the ticker and the log in the banner are refreshed daily from the public GitHub API by <a href="https://github.com/mvalancy/mvalancy/tree/main/tools/profile">tools/profile</a>. Everything holds still if your system asks for reduced motion.</sub>

@@ -4,7 +4,7 @@ name: check
 # - Every image the README links from this repo exists in the tree.
 # - Linked cards carry no prefers-color-scheme CSS: iOS draws SVG-in-<img> in its light scheme, ignoring the page.
 # - The generator pin matches profile.yml's pin.
-# - No tailnet (100.64.0.0/10) or LAN address, or home path, appears in tracked text.
+# - No private-network address (tailnet or LAN) and no home directory path appears in tracked text, this file included.
 # Standard library only.
 on:
   pull_request:
@@ -25,8 +25,9 @@ jobs:
           persist-credentials: false
       - name: The generator pin matches profile.yml
         run: |
-          a=$(grep -o 'ref: [0-9a-f]\{40\}' .github/workflows/profile.yml)
-          b=$(grep -o 'ref: [0-9a-f]\{40\}' .github/workflows/check.yml)
+          a=$(grep -o 'ref: [0-9a-f]\{40\}' .github/workflows/profile.yml || true)
+          b=$(grep -o 'ref: [0-9a-f]\{40\}' .github/workflows/check.yml || true)
+          [ -n "$a" ] || { echo "profile.yml's generator ref is not a full commit SHA"; exit 1; }
           [ "$a" = "$b" ] || { echo "profile.yml pins '$a' but check.yml pins '$b'"; exit 1; }
       - name: Banners match the pinned generator
         run: |
@@ -52,6 +53,7 @@ jobs:
           EOF
       - name: No private infrastructure in tracked text
         run: |
-          if git grep -nIE '\b100\.(6[4-9]|[7-9][0-9]|1[01][0-9]|12[0-7])\.[0-9]+\.[0-9]+\b|\b192\.168\.[0-9]+\.[0-9]+\b|/home/[a-z]' -- . ':!.github/workflows/check.yml'; then
+          # tailnet 100.64/10, LAN 10/8, 172.16/12 and 192.168/16, and Linux or macOS home directories
+          if git grep -nIE "\\b(100\\.(6[4-9]|[7-9][0-9]|1[01][0-9]|12[0-7])|10\\.[0-9]{1,3}|172\\.(1[6-9]|2[0-9]|3[01])|192\\.168)\\.[0-9]{1,3}\\.[0-9]{1,3}\\b|/(home|Users)/[a-z]" -- . ; then
             echo "private addresses or home paths found above"; exit 1
           fi

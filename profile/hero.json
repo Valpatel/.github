@@ -62,8 +62,8 @@
     ],
     "log": [
      "10-13 [app-soundbox] Wait for library refresh before...",
-     "11-02 [gyropup] README: the animated banner is the only...",
-     "11-02 [cad-agent] released v0.18.0"
+     "11-02 [cad-agent] released v0.18.2",
+     "11-03 [gyropup] Turret lid snaps: re-render turret.png..."
     ]
    }
   }

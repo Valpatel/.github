@@ -1,0 +1,71 @@
+{
+ "banners": [
+  {
+   "name": "valpatel",
+   "title": "Valpatel",
+   "kind": "hero",
+   "palette": "valpatel",
+   "hud": true,
+   "kicker": "Autonomous systems · simulation · AI",
+   "out": "assets/hero/valpatel",
+   "tagline": "Engineering the systems behind intelligent machines.",
+   "facts": [
+    "robotics simulation",
+    "edge AI",
+    "Dublin, California"
+   ],
+   "alt": "Valpatel: engineering the systems behind intelligent machines. An operations overview links Gyropup, cad-agent, Graphlings, Club Fight, val-ark, Tritium, Sound Box and j501-agx-orin.",
+   "desc": "An operations overview in the style of valpatel.com: each product is a zone round a hub, packets run along the links, agents fly between zones, and the newest real events from Valpatel's public repositories tick in at the bottom (refreshed daily).",
+   "motif": {
+    "kind": "ops",
+    "nodes": [
+     [
+      "GYROPUP",
+      "ROBOT · SIM",
+      "a3"
+     ],
+     [
+      "CAD-AGENT",
+      "AGENTIC CAD",
+      "a1"
+     ],
+     [
+      "GRAPHLINGS",
+      "AI CREATURES",
+      "a4"
+     ],
+     [
+      "CLUB FIGHT",
+      "PLAYABLE",
+      "a4"
+     ],
+     [
+      "VAL-ARK",
+      "OFFLINE MIRROR",
+      "a2"
+     ],
+     [
+      "TRITIUM",
+      "SENSOR FUSION",
+      "a2"
+     ],
+     [
+      "SOUND BOX",
+      "AUDIO GEN",
+      "a1"
+     ],
+     [
+      "J501",
+      "ENCLOSURE",
+      "a3"
+     ]
+    ],
+    "log": [
+     "10-13 [app-soundbox] Wait for library refresh before...",
+     "11-02 [gyropup] README: the animated banner is the only...",
+     "11-02 [cad-agent] released v0.18.0"
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,17 @@
+{
+ "accounts": [
+  [
+   "orgs",
+   "Valpatel"
+  ]
+ ],
+ "skip": [
+  "Valpatel/.github"
+ ],
+ "spot": {},
+ "hero": "profile/hero.json",
+ "badge": [
+  "05070a",
+  "00f0ff"
+ ]
+}

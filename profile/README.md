@@ -22,11 +22,13 @@ Build fast, explore broadly, then cut ruthlessly to what works.
 ## Open projects
 
 <p>
-<a href="https://github.com/Valpatel/gyropup"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Valpatel/.github/main/assets/cards/gyropup-dark.svg"><img src="https://raw.githubusercontent.com/Valpatel/.github/main/assets/cards/gyropup-light.svg" width="49%" alt="Gyropup: a research robot designed to balance on two wheel-legs, with a foam-ball turret"></picture></a>
-<a href="https://github.com/Valpatel/cad-agent"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Valpatel/.github/main/assets/cards/cad-agent-dark.svg"><img src="https://raw.githubusercontent.com/Valpatel/.github/main/assets/cards/cad-agent-light.svg" width="49%" alt="cad-agent: a workshop where AI agents get better at CAD by learning from everyone else"></picture></a>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Valpatel/.github/main/assets/cards/gyropup-dark.svg"><img src="https://raw.githubusercontent.com/Valpatel/.github/main/assets/cards/gyropup-light.svg" width="49%" alt="Gyropup: a research robot designed to balance on two wheel-legs, with a foam-ball turret"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Valpatel/.github/main/assets/cards/cad-agent-dark.svg"><img src="https://raw.githubusercontent.com/Valpatel/.github/main/assets/cards/cad-agent-light.svg" width="49%" alt="cad-agent: a workshop where AI agents get better at CAD by learning from everyone else"></picture>
+<br><sub><a href="https://github.com/Valpatel/gyropup">Gyropup</a> · <a href="https://github.com/Valpatel/cad-agent">cad-agent</a></sub>
 </p>
 <p>
-<a href="https://github.com/Valpatel/app-soundbox"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Valpatel/.github/main/assets/cards/app-soundbox-dark.svg"><img src="https://raw.githubusercontent.com/Valpatel/.github/main/assets/cards/app-soundbox-light.svg" width="49%" alt="Sound Box: local AI audio generation (music, effects, voice) for agents and humans"></picture></a>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Valpatel/.github/main/assets/cards/app-soundbox-dark.svg"><img src="https://raw.githubusercontent.com/Valpatel/.github/main/assets/cards/app-soundbox-light.svg" width="49%" alt="Sound Box: local AI audio generation (music, effects, voice) for agents and humans"></picture>
+<br><sub><a href="https://github.com/Valpatel/app-soundbox">Sound Box</a></sub>
 </p>
 
 [**Gyropup**](https://github.com/Valpatel/gyropup) — A research robot designed to balance on two wheel-legs, with a foam-ball turret: CAD and simulation in the open, and the closed-loop tooling that designs, simulates and manufactures it. [gyropup.com](https://gyropup.com)
@@ -40,8 +42,9 @@ Build fast, explore broadly, then cut ruthlessly to what works.
 ## In development
 
 <p>
-<a href="https://graphlings.net"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Valpatel/.github/main/assets/cards/graphlings-dark.svg"><img src="https://raw.githubusercontent.com/Valpatel/.github/main/assets/cards/graphlings-light.svg" width="49%" alt="Graphlings: crystal creatures that live, think and remember across connected worlds"></picture></a>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Valpatel/.github/main/assets/cards/graphlings-dark.svg"><img src="https://raw.githubusercontent.com/Valpatel/.github/main/assets/cards/graphlings-light.svg" width="49%" alt="Graphlings: crystal creatures that live, think and remember across connected worlds"></picture>
 <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Valpatel/.github/main/assets/cards/tritium-dark.svg"><img src="https://raw.githubusercontent.com/Valpatel/.github/main/assets/cards/tritium-light.svg" width="49%" alt="Tritium: every sensor fused into one operating picture, on your own hardware"></picture>
+<br><sub><a href="https://graphlings.net">Graphlings</a></sub>
 </p>
 <p>
 <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Valpatel/.github/main/assets/cards/club-fight-dark.svg"><img src="https://raw.githubusercontent.com/Valpatel/.github/main/assets/cards/club-fight-light.svg" width="49%" alt="Club Fight: an animal fighting game"></picture>

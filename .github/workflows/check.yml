@@ -1,0 +1,57 @@
+name: check
+# Every pull request: the profile must render the way the review checks it by hand.
+# - The banners are what the pinned generator draws from profile/hero.json and the repo's own content.
+# - Every image the README links from this repo exists in the tree.
+# - Linked cards carry no prefers-color-scheme CSS: iOS draws SVG-in-<img> in its light scheme, ignoring the page.
+# - The generator pin matches profile.yml's pin.
+# - No tailnet (100.64.0.0/10) or LAN address, or home path, appears in tracked text.
+# Standard library only.
+on:
+  pull_request:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  profile:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          repository: mvalancy/mvalancy
+          ref: 3ceb8253e116852bccbf3def4d7d0d1f9051e978  # keep equal to profile.yml's pin
+          path: .gen
+          persist-credentials: false
+      - name: The generator pin matches profile.yml
+        run: |
+          a=$(grep -o 'ref: [0-9a-f]\{40\}' .github/workflows/profile.yml)
+          b=$(grep -o 'ref: [0-9a-f]\{40\}' .github/workflows/check.yml)
+          [ "$a" = "$b" ] || { echo "profile.yml pins '$a' but check.yml pins '$b'"; exit 1; }
+      - name: Banners match the pinned generator
+        run: |
+          python3 .gen/tools/hero/heroes.py --check --repo Valpatel/.github=.
+          python3 .gen/tools/hero/heroes.py --check --spec profile/hero.json
+      - name: README images exist and linked cards are single-scheme
+        run: |
+          python3 - <<'EOF'
+          import pathlib, re, sys
+          readme = pathlib.Path('profile/README.md').read_text()
+          prefix = 'https://raw.githubusercontent.com/Valpatel/.github/main/'
+          bad = []
+          paths = sorted(set(re.findall(re.escape(prefix) + r'([^"\s)]+)', readme)))
+          for p in paths:
+              if not pathlib.Path(p).is_file():
+                  bad.append(f'{p}: linked from profile/README.md but not in the tree')
+          for svg in sorted(pathlib.Path('assets').glob('*/*.svg')):
+              if svg.parent.name in ('cards', 'spot') and 'prefers-color-scheme' in svg.read_text():
+                  bad.append(f'{svg}: a linked card must not switch on prefers-color-scheme (iOS shows the light one)')
+          print(f'{len(paths)} images checked')
+          if bad:
+              print('\n'.join(bad)); sys.exit(1)
+          EOF
+      - name: No private infrastructure in tracked text
+        run: |
+          if git grep -nIE '\b100\.(6[4-9]|[7-9][0-9]|1[01][0-9]|12[0-7])\.[0-9]+\.[0-9]+\b|\b192\.168\.[0-9]+\.[0-9]+\b|/home/[a-z]' -- . ':!.github/workflows/check.yml'; then
+            echo "private addresses or home paths found above"; exit 1
+          fi

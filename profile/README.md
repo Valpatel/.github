@@ -13,7 +13,7 @@
 <!-- stats:end -->
 
 <!-- ticker:start -->
-<p><sub><b>▸ Now building</b> · <a href="https://github.com/Valpatel/cad-agent">cad-agent</a>: v0.18.0 CHANGELOG: review fixes (M3 clamp torque drop… (Nov 2) · <a href="https://github.com/Valpatel/gyropup">gyropup</a> (Nov 2) · <a href="https://github.com/Valpatel/app-soundbox">app-soundbox</a> (Oct 13)</sub></p>
+<p><sub><b>▸ Now building</b> · <a href="https://github.com/Valpatel/cad-agent">cad-agent</a>: v0.18.0 CHANGELOG: review fixes (M3 clamp torque drop…, Nov 2 · <a href="https://github.com/Valpatel/gyropup">gyropup</a>, Nov 2 · <a href="https://github.com/Valpatel/app-soundbox">app-soundbox</a>, Oct 13</sub></p>
 <!-- ticker:end -->
 
 <table>

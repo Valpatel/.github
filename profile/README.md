@@ -45,7 +45,7 @@
 <a href="https://github.com/Valpatel/app-soundbox"><img src="https://raw.githubusercontent.com/Valpatel/.github/main/assets/cards/app-soundbox-dark.svg" width="32%" alt="Sound Box: local AI music, sound effects and voice."></a>
 <a href="https://github.com/Valpatel/app-soundbox"><img src="https://raw.githubusercontent.com/Valpatel/.github/main/assets/thumbs/soundbox.jpg" width="32%" alt="Sound Box radio: station presets."></a>
 <a href="https://fight.graphlings.net/"><img src="https://raw.githubusercontent.com/Valpatel/.github/main/assets/thumbs/club-fight.jpg" width="32%" alt="Club Fight gameplay: zebras against hippos on a floating platform."></a>
-<img src="https://raw.githubusercontent.com/Valpatel/.github/main/assets/cards/tritium-dark.svg" width="32%" alt="Tritium: every sensor fused into one operating picture, on your own hardware.">
+<img src="https://raw.githubusercontent.com/Valpatel/.github/main/assets/cards/tritium-dark.svg" width="32%" alt="Tritium: robotic battlefield management.">
 <img src="https://raw.githubusercontent.com/Valpatel/.github/main/assets/thumbs/tritium.jpg" width="32%" alt="Tritium's map: tracked targets over city blocks.">
 <img src="https://raw.githubusercontent.com/Valpatel/.github/main/assets/cards/cyberpower-pdu-dark.svg" width="32%" alt="CyberPower-PDU: self-hosted monitoring for CyberPower PDUs.">
 <a href="https://github.com/mvalancy/val-ark"><img src="https://raw.githubusercontent.com/Valpatel/.github/main/assets/cards/val-ark-dark.svg" width="32%" alt="val-ark: open-source tools, AI models and Wikipedia, offline."></a>
@@ -53,7 +53,12 @@
 <img src="https://raw.githubusercontent.com/Valpatel/.github/main/assets/thumbs/cyberpower-pdu.jpg" width="32%" alt="CyberPower-PDU dashboard: an automatic transfer switch with two inputs.">
 </p>
 
-<sub>Some of our work is closed source: Graphlings, Club Fight, Tritium and CyberPower-PDU are shown here without code links. val-ark and j501-agx-orin live on our founder Matthew Valancy's account.</sub>
+<p>
+<a href="https://github.com/GraphDone/GraphDone-Core"><img src="https://raw.githubusercontent.com/Valpatel/.github/main/assets/cards/graphdone-dark.svg" width="32%" alt="GraphDone: relationship management for agents, people and AI agents linked by dependencies and outcomes. Open source on GitHub."></a>
+<img src="https://raw.githubusercontent.com/Valpatel/.github/main/assets/cards/codegraph-dark.svg" width="32%" alt="CodeGraph: agent-enabled deep visual code analysis, a private tool from Graphlings.">
+</p>
+
+<sub>Some of our work is closed source: Graphlings, CodeGraph (an agent tool inside Graphlings), Club Fight, Tritium and CyberPower-PDU are shown here without code links. val-ark and j501-agx-orin live on our founder Matthew Valancy's account. GraphDone is open source in its own organization, <a href="https://github.com/GraphDone">GraphDone</a>.</sub>
 
 <p align="center"><a href="https://valpatel.com">valpatel.com</a> · Dublin, California</p>
 

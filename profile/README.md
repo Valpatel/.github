@@ -57,4 +57,4 @@
 
 <p align="center"><a href="https://valpatel.com">valpatel.com</a> · Dublin, California</p>
 
-<sub>Banners are animated SVGs drawn by <a href="https://github.com/mvalancy/mvalancy/tree/main/tools/hero">tools/hero</a> from each project's own content. The stats, the ticker and the log in the banner are refreshed daily from the public GitHub API by <a href="https://github.com/mvalancy/mvalancy/tree/main/tools/profile">tools/profile</a>. Everything holds still if your system asks for reduced motion.</sub>
+<sub>Banners are animated SVGs drawn by <a href="https://github.com/mvalancy/mvalancy/tree/main/tools/hero">tools/hero</a> from each project's own content. The stats, the ticker and the log in the banner are refreshed daily from the public GitHub API by <a href="https://github.com/mvalancy/mvalancy/tree/main/tools/profile">tools/profile</a>. The banners replay on a loop, and everything holds still on its finished frame if your system asks for reduced motion.</sub>

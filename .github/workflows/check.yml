@@ -20,7 +20,7 @@ jobs:
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
         with:
           repository: mvalancy/mvalancy
-          ref: 3ceb8253e116852bccbf3def4d7d0d1f9051e978  # keep equal to profile.yml's pin
+          ref: 5ca64e623867b647770379a6c250e538c8caf192  # keep equal to profile.yml's pin
           path: .gen
           persist-credentials: false
       - name: The generator pin matches profile.yml

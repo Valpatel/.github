@@ -19,7 +19,7 @@ jobs:
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
         with:
           repository: mvalancy/mvalancy
-          ref: 73319c34d97545e6ae78798b9875da213c3d7299  # mvalancy/mvalancy#6 head; repin to its merge commit
+          ref: 5ca64e623867b647770379a6c250e538c8caf192  # main after mvalancy/mvalancy#6
           path: .gen
           persist-credentials: false
       - name: Refresh the live sections and the hero's log

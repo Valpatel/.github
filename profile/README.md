@@ -54,8 +54,8 @@
 </p>
 
 <p>
-<a href="https://github.com/GraphDone/GraphDone-Core"><img src="https://raw.githubusercontent.com/Valpatel/.github/main/assets/cards/graphdone-dark.svg" width="32%" alt="GraphDone: coordinate work through dependencies and outcomes, with AI agents as peers. Open source on GitHub."></a>
-<a href="https://graphlings.net"><img src="https://raw.githubusercontent.com/Valpatel/.github/main/assets/cards/codegraph-dark.svg" width="32%" alt="CodeGraph: an agent tool from Graphlings that maps a codebase as a living 3D graph (private). Part of Graphlings, at graphlings.net."></a>
+<a href="https://github.com/GraphDone/GraphDone-Core"><img src="https://raw.githubusercontent.com/Valpatel/.github/main/assets/cards/graphdone-dark.svg" width="32%" alt="GraphDone: relationship management for agents, people and AI agents linked by dependencies and outcomes. Open source on GitHub."></a>
+<img src="https://raw.githubusercontent.com/Valpatel/.github/main/assets/cards/codegraph-dark.svg" width="32%" alt="CodeGraph: agent-enabled deep visual code analysis, a private tool from Graphlings.">
 </p>
 
 <sub>Some of our work is closed source: Graphlings, CodeGraph (an agent tool inside Graphlings), Club Fight, Tritium and CyberPower-PDU are shown here without code links. val-ark and j501-agx-orin live on our founder Matthew Valancy's account. GraphDone is open source in its own organization, <a href="https://github.com/GraphDone">GraphDone</a>.</sub>

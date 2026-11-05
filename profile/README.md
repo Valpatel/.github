@@ -6,14 +6,14 @@
 <!-- stats:start -->
 <p align="center">
 <img src="https://img.shields.io/badge/open%20repos-3-00f0ff?style=for-the-badge&amp;labelColor=05070a" alt="open repos: 3">
-<img src="https://img.shields.io/badge/releases%20%C2%B7%2030%20days-19-00f0ff?style=for-the-badge&amp;labelColor=05070a" alt="releases · 30 days: 19">
-<img src="https://img.shields.io/badge/last%20release-cad--agent%20v0.18.2%20%C2%B7%20Nov%202-00f0ff?style=for-the-badge&amp;labelColor=05070a" alt="last release: cad-agent v0.18.2 · Nov 2">
-<img src="https://img.shields.io/badge/last%20commit-Nov%204%2000%3A22%20PT-00f0ff?style=for-the-badge&amp;labelColor=05070a" alt="last commit: Nov 4 00:22 PT">
+<img src="https://img.shields.io/badge/releases%20%C2%B7%2030%20days-21-00f0ff?style=for-the-badge&amp;labelColor=05070a" alt="releases · 30 days: 21">
+<img src="https://img.shields.io/badge/last%20release-cad--agent%20v0.20.0%20%C2%B7%20Nov%204-00f0ff?style=for-the-badge&amp;labelColor=05070a" alt="last release: cad-agent v0.20.0 · Nov 4">
+<img src="https://img.shields.io/badge/last%20commit-Nov%205%2001%3A10%20PT-00f0ff?style=for-the-badge&amp;labelColor=05070a" alt="last commit: Nov 5 01:10 PT">
 </p>
 <!-- stats:end -->
 
 <!-- ticker:start -->
-<p><sub><b>▸ Now building</b> · <a href="https://github.com/Valpatel/gyropup">gyropup</a>: Diagrams inventory: 11 published diagrams (the RS-04…, Nov 4 · <a href="https://github.com/Valpatel/cad-agent">cad-agent</a>, Nov 2 · <a href="https://github.com/Valpatel/app-soundbox">app-soundbox</a>, Oct 13</sub></p>
+<p><sub><b>▸ Now building</b> · <a href="https://github.com/Valpatel/gyropup">gyropup</a>: Motion test: the summary counts the fixture's components, Nov 5 · <a href="https://github.com/Valpatel/cad-agent">cad-agent</a>, Nov 4 · <a href="https://github.com/Valpatel/app-soundbox">app-soundbox</a>, Oct 13</sub></p>
 <!-- ticker:end -->
 
 <table>

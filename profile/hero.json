@@ -62,8 +62,8 @@
     ],
     "log": [
      "10-13 [app-soundbox] Wait for library refresh before...",
-     "11-02 [cad-agent] released v0.18.2",
-     "11-04 [gyropup] Diagrams inventory: 11 published diagrams..."
+     "11-04 [cad-agent] released v0.20.0",
+     "11-05 [gyropup] Motion test: the summary counts the..."
     ]
    }
   }

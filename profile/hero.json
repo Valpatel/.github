@@ -62,8 +62,8 @@
     ],
     "log": [
      "10-13 [app-soundbox] Wait for library refresh before...",
-     "11-07 [cad-agent] released v0.27.1",
-     "11-07 [gyropup] Describe shared turret stops accurately..."
+     "11-07 [gyropup] Bind topology imports to exact retained...",
+     "11-07 [cad-agent] released v0.29.1"
     ]
    }
   }

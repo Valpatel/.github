@@ -6,14 +6,14 @@
 <!-- stats:start -->
 <p align="center">
 <img src="https://img.shields.io/badge/open%20repos-3-00f0ff?style=for-the-badge&amp;labelColor=05070a" alt="open repos: 3">
-<img src="https://img.shields.io/badge/releases%20%C2%B7%2030%20days-47-00f0ff?style=for-the-badge&amp;labelColor=05070a" alt="releases · 30 days: 47">
-<img src="https://img.shields.io/badge/last%20release-cad--agent%20v0.32.0%20%C2%B7%20Nov%2010-00f0ff?style=for-the-badge&amp;labelColor=05070a" alt="last release: cad-agent v0.32.0 · Nov 10">
-<img src="https://img.shields.io/badge/last%20commit-Nov%2010%2011%3A39%20PT-00f0ff?style=for-the-badge&amp;labelColor=05070a" alt="last commit: Nov 10 11:39 PT">
+<img src="https://img.shields.io/badge/releases%20%C2%B7%2030%20days-58-00f0ff?style=for-the-badge&amp;labelColor=05070a" alt="releases · 30 days: 58">
+<img src="https://img.shields.io/badge/last%20release-cad--agent%20v0.36.1%20%C2%B7%20Nov%2011-00f0ff?style=for-the-badge&amp;labelColor=05070a" alt="last release: cad-agent v0.36.1 · Nov 11">
+<img src="https://img.shields.io/badge/last%20commit-Nov%2011%2011%3A16%20PT-00f0ff?style=for-the-badge&amp;labelColor=05070a" alt="last commit: Nov 11 11:16 PT">
 </p>
 <!-- stats:end -->
 
 <!-- ticker:start -->
-<p><sub><b>▸ Now building</b> · <a href="https://github.com/Valpatel/cad-agent">cad-agent</a>: Refresh homepage Gyropup model and matching…, Nov 10 · <a href="https://github.com/Valpatel/gyropup">gyropup</a>, Nov 10 · <a href="https://github.com/Valpatel/app-soundbox">app-soundbox</a>, Oct 13</sub></p>
+<p><sub><b>▸ Now building</b> · <a href="https://github.com/Valpatel/cad-agent">cad-agent</a>: Release v0.36.1 and preserve optimized retirement…, Nov 11 · <a href="https://github.com/Valpatel/gyropup">gyropup</a>, Nov 11 · <a href="https://github.com/Valpatel/app-soundbox">app-soundbox</a>, Oct 13</sub></p>
 <!-- ticker:end -->
 
 <table>

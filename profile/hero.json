@@ -62,8 +62,8 @@
     ],
     "log": [
      "10-13 [app-soundbox] Wait for library refresh before...",
-     "11-11 [gyropup] Bind printable checklists to released...",
-     "11-11 [cad-agent] released v0.36.1"
+     "11-11 [gyropup] Retain failed public C capture evidence...",
+     "11-12 [cad-agent] released v0.38.1"
     ]
    }
   }
